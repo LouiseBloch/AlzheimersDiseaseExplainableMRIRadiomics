@@ -1,0 +1,78 @@
+﻿Feature Name;Low value;High value
+firstorder_10Percentile;Low signal intensities;High signal intensities
+firstorder_90Percentile;Low signal intensities;High signal intensities
+firstorder_Energy;Low signal intensities;High signal intensities
+firstorder_InterquartileRange;Narrow intensity range;Wide intensity range
+firstorder_Kurtosis;Flat intensity distribution, without extreme bright or dark intensities;Peaked intensity with extreme bright or dark intensities
+firstorder_Minimum;Low signal intensities ;High signal intensities 
+firstorder_Range;Narrow intensity range ;Wide intensity range 
+firstorder_RobustMeanAbsoluteDeviation;Small deviation from the average signal intensity;Large deviation from the average signal intensity
+firstorder_Skewness;Low signal intensities ;High signal intensities 
+firstorder_Uniformity;High variation in signal intensities;Low variation of signal intensities
+firstorder_Variance;Small deviation from the average signal intensity;Large deviation from the average signal intensity
+glcm_ClusterProminence;Homogenous texture with intensity clusters with little variation around mean;Heterogenous texture with intensitiy clusters far from mean
+glcm_ClusterShade;Homogenous texture with intensity clusters with little variation around mean;Heterogenous texture with intensitiy clusters far from mean
+glcm_ClusterTendency;Fine-granular texture;Coarse texture
+glcm_Contrast;Low contrast;High contrast
+glcm_Correlation;Tissue with complex texture patterns;Tissue with organized texture patterns
+glcm_DifferenceVariance;Homogenous texture with slowly varying signal intensities;Heterogenous texture with rapidly varying signal intensities
+glcm_Idm;Heterogenous texture with rapidly varying signal intensities;Homogenous texture with slowly varying signal intensities
+glcm_Idmn;Heterogenous texture with rapidly varying signal intensities;Homogenous texture with slowly varying signal intensities
+glcm_Idn;Heterogenous texture with rapidly varying signal intensities;Homogenous texture with slowly varying signal intensities
+glcm_Imc1;Tissue with organized texture patterns;Tissue with complex texture patterns
+glcm_Imc2;Tissue with complex texture patterns;Tissue with organized texture patterns
+glcm_InverseVariance;Large deviation from the average signal intensity;Small deviation from the average signal intensity
+glcm_JointAverage;Low signal intensities ;High signal intensities 
+glcm_JointEntropy;Tissue with organized texture patterns;Tissue with complex texture patterns
+glcm_MCC;Tissue with complex texture patterns;Tissue with organized texture patterns
+glcm_SumEntropy;Tissue with organized texture patterns;Tissue with complex texture patterns
+gldm_DependenceEntropy;Tissue with organized texture patterns;Tissue with complex texture patterns
+gldm_DependenceNonUniformity;Tissue with complex texture patterns;Tissue with organized texture patterns
+gldm_DependenceNonUniformityNormalized;Tissue with complex texture patterns;Tissue with organized texture patterns
+gldm_DependenceVariance;Tissue with organized texture patterns;Tissue with complex texture patterns
+gldm_GrayLevelNonUniformity;Tissue with complex texture patterns;Tissue with organized texture patterns
+gldm_GrayLevelVariance;Small deviation from the average signal intensity;Large deviation from the average signal intensity
+gldm_LargeDependenceEmphasis;Tissue with fine-granular or heterogenous texture;Tissue with coarse homogenous areas
+gldm_LargeDependenceHighGrayLevelEmphasis;Dark tissue with fine-granular or heterogenous texture;Bright tissue with coarse homogenous areas
+gldm_LargeDependenceLowGrayLevelEmphasis;Bright tissue with fine-granular or heterogenous texture;Dark tissue with coarse homogenous areas
+gldm_SmallDependenceEmphasis;Tissue with coarse homogenous areas;Tissue with fine-granular or heterogenous texture
+gldm_SmallDependenceHighGrayLevelEmphasis;Dark tissue with coarse homogenous areas;Bright tissue with fine-granular or heterogenous texture
+gldm_SmallDependenceLowGrayLevelEmphasis;Bright tissue with coarse homogenous areas;Dark tissue with fine-granular or heterogenous texture
+glrlm_GrayLevelNonUniformity;Tissue with complex texture patterns;Tissue with organized texture patterns
+glrlm_GrayLevelNonUniformityNormalized;Tissue with complex texture patterns;Tissue with organized texture patterns
+glrlm_GrayLevelVariance;Small local variation in signal intensities;High local variation in signal intensities
+glrlm_HighGrayLevelRunEmphasis;Low signal intensities ;High signal intensities
+glrlm_LongRunEmphasis;Fine-granular texture;Coarse texture
+glrlm_LongRunHighGrayLevelEmphasis;Fine-granular texture and higher signal intensities;Coarse texture and higher signal intensities
+glrlm_LongRunLowGrayLevelEmphasis;Fine-granular texture and higher signal intensities;Coarse texture and lower signal intensities
+glrlm_RunEntropy;Organized texture patterns;Complex texture patterns
+glrlm_RunLengthNonUniformity;Complex texture with connected components of arbitrary sizes;Organized texture with connected components of recurrent sizes
+glrlm_RunLengthNonUniformityNormalized;Complex texture with connected components of arbitrary sizes;Organized texture with connected components of recurrent sizes
+glrlm_RunPercentage;Coarse texture;Fine-granular texture
+glrlm_RunVariance;Organized texture patterns;Complex texture patterns
+glrlm_ShortRunEmphasis;Coarse texture;Fine-granular texture
+glrlm_ShortRunHighGrayLevelEmphasis;Dark and coarse texture ;Bright and fine-granular texture
+glszm_GrayLevelNonUniformityNormalized;Complex texture with heterogenous signal intensities;Organized texture with with homogenous signal intensities
+glszm_GrayLevelVariance;Small deviation from the average signal intensity;Large deviation from the average signal intensity
+glszm_HighGrayLevelZoneEmphasis;Few bright intensity zones;Many bright intensity zones
+glszm_LargeAreaEmphasis;Fine-granular texture;Coarse texture
+glszm_LargeAreaLowGrayLevelEmphasis;Fine-granular texture with high signal intensities;Coarse texture with low signal intensities
+glszm_LowGrayLevelZoneEmphasis;Few dark intensity zones;Many dark intensity zones
+glszm_SizeZoneNonUniformity;Complex texture with varying intensity zone sizes;Organized texture with predominant size zones
+glszm_SmallAreaEmphasis;Coarse texture;Fine-granular texture
+glszm_SmallAreaLowGrayLevelEmphasis;Coarse texture with high signal intensities;Fine-granular texture with low signal intensities
+glszm_ZoneEntropy;Organized texture patterns;Complex texture patterns
+glszm_ZonePercentage;Coarse texture;Fine-granular texture
+glszm_ZoneVariance;Organized texture patterns with homogenous zone sizes;Complex texture with heterogenous zone sizes
+ngtdm_Busyness;Coarse texture with slowly varying signal intensities;Fine-granular texture with rapidly varying signal intensities
+ngtdm_Coarseness;Fine-granular texture with rapidly varying signal intensities;Coarse texture with slowly varying signal intensities
+ngtdm_Complexity;Coarse texture with slowly varying signal intensities;Fine-granular texture with rapidly varying signal intensities
+ngtdm_Contrast;Coarse texture with slowly varying signal intensities;Fine-granular texture with rapidly varying signal intensities
+shape_Flatness;Flat shape;Spherical shape
+shape_LeastAxisLength;Flat, elongated shape;Spherical shape
+shape_Maximum2DDiameterRow;Small horizontal extension;Large horizontal extension
+shape_MeshVolume;Small volume;Large volume
+shape_MinorAxisLength;Flat, elongated shape;Spherical shape
+shape_Sphericity;Complex shape;Spherical shape
+shape_SurfaceVolumeRatio;Compact, sphere-like shape;Irregular or elongated shape
+shape_VoxelVolume;Small volume ;Large volume
